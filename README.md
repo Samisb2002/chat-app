@@ -48,3 +48,40 @@ Chatty is a modern real-time chat application built with the MERN stack (MongoDB
 ```bash
 git clone https://github.com/yourusername/chatty.git
 cd chatty
+
+Install dependencies
+
+bash# Backend dependencies
+cd backend
+npm install
+
+# Frontend dependencies
+cd ../frontend
+npm install
+
+Create .env files
+
+For backend (.env in backend directory):
+PORT=5001
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+REDIS_URL=your_redis_url
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+For frontend (.env in frontend directory):
+VITE_API_BASE_URL=http://localhost:5001
+Running the Application
+
+Start the backend server
+
+bashcd backend
+npm run dev
+
+Start the frontend development server
+
+bashcd frontend
+npm run dev
+
+Access the application at http://localhost:5173
+
