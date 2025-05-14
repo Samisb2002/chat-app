@@ -1,4 +1,4 @@
-##✨ Features
+##Features
 
 Real-time messaging with instant message delivery
 User authentication with JWT for secure access
