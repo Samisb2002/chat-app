@@ -44,7 +44,7 @@ Cloudinary account
 
 #### 1 Clone the repository
 
-bashgit clone https://github.com/yourusername/chatty.git
+git clone https://github.com/yourusername/chatty.git](https://github.com/Samisb2002/chat-app.git
 cd chatty
 
 #### 2 Install dependencies
